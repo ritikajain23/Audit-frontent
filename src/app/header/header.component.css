@@ -1,0 +1,22 @@
+.brand{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
+    
+}
+.navbar{
+    background-color: blueviolet;
+}
+
+.logout{
+    background-color: whitesmoke;
+    color: blueviolet;
+    font-weight: bold;
+    padding-left: 1rem;
+    border-color: whitesmoke;
+    size: 2rem;
+    float: right;
+}

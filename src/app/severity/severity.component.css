@@ -1,0 +1,17 @@
+.type{
+    text-align: center;
+    font-size: bold;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    justify-content:center;
+    padding-top: 2rem;
+    
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: greenyellow;
+}

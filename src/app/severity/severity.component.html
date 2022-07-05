@@ -1,0 +1,15 @@
+<app-header></app-header>
+ 
+<div *ngIf="status=='RED'; else elseBlock">
+    <mat-card class="red">
+    <h3 class="type">{{duration}}</h3>
+    </mat-card>
+</div>
+ 
+<ng-template #elseBlock>
+    <mat-card class="green">
+    <h3 class="type">{{duration}}</h3>
+    </mat-card>
+</ng-template>
+
+<app-footer></app-footer>

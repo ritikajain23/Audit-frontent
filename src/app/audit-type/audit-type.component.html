@@ -1,0 +1,32 @@
+<app-header></app-header>
+<h1 class="greet">Welcome {{userName}}</h1>
+<div class="container mt-5 form-style">
+    <div class="row custom-wrapper">
+      <h2 class="mb-3 text-center">Select Audit Type</h2>
+      <br>
+      <form [formGroup]="auditForm" (ngSubmit)="onSubmit()">
+        <div class="d-grid">
+          <select
+            class="custom-select mb-3"
+            (change)="changeAudit($event)"
+            formControlName="auditName"
+          >
+            <option value="">Choose Audit Type</option>
+            <option *ngFor="let audit of Audit" [ngValue]="audit">
+              {{ audit }}
+            </option>
+          </select>
+          <!-- error block -->
+          <div class="invalid-feedback" *ngIf="isSubmitted && auditName?.invalid">
+            <sup>*</sup>Please provide Audit Type
+          </div>
+          <br>
+          <br>
+          <button type="submit" class="btn btn-danger btn-lg btn-block login-btn">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <app-footer></app-footer>

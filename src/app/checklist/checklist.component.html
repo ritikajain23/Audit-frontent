@@ -1,0 +1,15 @@
+<app-header></app-header>
+<h4 class="type">{{auditName}}</h4>
+<mat-card>
+<h2 class="type">Check List✅</h2>
+<div *ngFor="let val of Questions">
+<p>
+<input type="checkbox" [value]=val.questionId (change)="onCheckboxChange($event,val.questionId)"/>
+<label>{{val.question}}</label>
+</p>
+</div>
+</mat-card>
+<div class="align">
+<input class="login-btn" type="submit" value="Submit" (click)="onSubmit()">
+</div>
+<app-footer></app-footer>

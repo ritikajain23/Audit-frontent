@@ -1,0 +1,28 @@
+.greet{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+.form-style{
+        
+    display: flex;
+    justify-content: center;
+     width: 350px;
+    /*height: 400px;*/
+    margin-top: 5rem;
+    margin-left:auto;
+    margin-right:auto;   
+    vertical-align:middle;
+  
+}
+
+.login-btn{
+    background-color: blueviolet;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

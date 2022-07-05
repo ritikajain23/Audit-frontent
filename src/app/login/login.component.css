@@ -1,0 +1,23 @@
+.form-style{
+        
+        display: flex;
+        justify-content: center;
+         width: 350px;
+        /*height: 400px;*/
+        margin-top: 10rem;
+        margin-left:auto;
+        margin-right:auto;   
+        vertical-align:middle;
+      
+}
+
+.login-btn{
+        background-color: blueviolet;
+        border-radius: 1rem;
+        border-color: blueviolet;
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+}

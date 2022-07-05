@@ -1,0 +1,26 @@
+.type{
+    text-align: center;
+    font-size: bold;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+.login-btn{
+    background-color: blueviolet;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.align{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top: 2rem;
+}
